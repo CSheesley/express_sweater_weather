@@ -1,1 +1,4 @@
 node_modules
+.env
+api_endpoint_notes.js
+test.js
