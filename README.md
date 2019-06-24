@@ -11,3 +11,6 @@ Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 
 ### Packages
 `$npm install dotenv`
+
+### Schema
+![schema](schema.png)
