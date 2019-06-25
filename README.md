@@ -12,6 +12,8 @@ Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 
 ### Versions
 node 10.16.0
+npm 6.9.0
+sequelize ?
 
 ### Packages
 `$ npm install dotenv`  
