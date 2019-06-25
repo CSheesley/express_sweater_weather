@@ -15,3 +15,5 @@ node 10.16.0
 `$npm install -g node-gyp`  
 `$npm install bcrypt`    
 
+### Schema
+![schema](schema.png)
