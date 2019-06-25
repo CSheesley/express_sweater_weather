@@ -6,6 +6,9 @@ Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 ### Endpoints
 
 ### Setup
+`npx sequelize db:create`  
+`npx sequelize db:migrate`  
+`npx sequelize db:seed:all`  
 
 ### Versions
 node 10.16.0
