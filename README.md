@@ -12,3 +12,6 @@ node 10.16.0
 
 ### Packages
 `$npm install dotenv`
+`$npm install -g node-gyp`
+`npm install bcrypt`
+
