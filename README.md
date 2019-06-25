@@ -6,17 +6,17 @@ Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 ### Endpoints
 
 ### Setup
-`npx sequelize db:create`  
-`npx sequelize db:migrate`  
-`npx sequelize db:seed:all`  
+`$ npx sequelize db:create`  
+`$ npx sequelize db:migrate`  
+`$ npx sequelize db:seed:all`  
 
 ### Versions
 node 10.16.0
 
 ### Packages
-`$npm install dotenv`  
-`$npm install -g node-gyp`  
-`$npm install bcrypt`    
+`$ npm install dotenv`  
+`$ npm install -g node-gyp`  
+`$ npm install bcrypt`    
 
 ### Schema
 ![schema](schema.png)
