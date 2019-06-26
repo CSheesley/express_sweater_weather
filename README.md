@@ -18,7 +18,8 @@ sequelize ?
 ### Packages
 `$ npm install dotenv`  
 `$ npm install -g node-gyp`  
-`$ npm install bcrypt`    
+`$ npm install bcrypt`   
+`$ npm install uuid` 
 
 ### Schema
 ![schema](schema.png)
