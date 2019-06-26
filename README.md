@@ -11,8 +11,8 @@ Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 `$ npx sequelize db:seed:all`  
 
 ### Versions
-node 10.16.0
-npm 6.9.0
+node 10.16.0  
+npm 6.9.0  
 sequelize ?
 
 ### Packages
