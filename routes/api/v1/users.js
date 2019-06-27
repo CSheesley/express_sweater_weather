@@ -20,31 +20,29 @@ router.post("/", function(req, res, next) {
         if(user) {
           res.setHeader("Content-Type", "application/json");
           res.status(409).send("CONFLICT: User Already Exists" );
-      }
-        else {
-          if(userPassword === userPasswordConfirmation) {
-            bcrypt.hash(userPassword, saltRounds, function(err, hash) {
-              User.create({
-                email: req.body.email,
-                password: hash,
-                apiKey: uuidv1()
-              })
-              .then(user => {
-                res.setHeader("Content-Type", "application/json");
-                res.status(201).send( { api_key: user.apiKey} );
-              })
-              .catch(error => {
-                res.setHeader("Content-Type", "application/json");
-                res.status(500).send({ error });
+        } else {
+            if(userPassword === userPasswordConfirmation) {
+              bcrypt.hash(userPassword, saltRounds, function(err, hash) {
+                User.create({
+                  email: req.body.email,
+                  password: hash,
+                  apiKey: uuidv1()
+                })
+                .then(user => {
+                  res.setHeader("Content-Type", "application/json");
+                  res.status(201).send( { api_key: user.apiKey} );
+                })
+                .catch(error => {
+                  res.setHeader("Content-Type", "application/json");
+                  res.status(500).send({ error });
+                });
               });
-            });
+            } else {
+                res.setHeader("Content-Type", "application/json");
+                res.status(409).send("CONFLICT: Passwords Must Match" );
+              }
           }
-          else {
-            res.setHeader("Content-Type", "application/json");
-            res.status(409).send("CONFLICT: Passwords Must Match" );
-          }
-        }
-      }
+    }
   )
 });
 
