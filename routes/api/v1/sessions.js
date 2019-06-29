@@ -4,7 +4,6 @@ var express = require("express");
 var router = express.Router();
 var User = require('../../../models').User;
 
-// const uuidv1 = require('uuid/v1');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 
