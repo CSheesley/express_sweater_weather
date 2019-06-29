@@ -19,7 +19,8 @@ sequelize ?
 `$ npm install dotenv`  
 `$ npm install -g node-gyp`  
 `$ npm install bcrypt`   
-`$ npm install uuid` 
+`$ npm install uuid`
+`npm install node-fetch --save`
 
 ### Schema
 ![schema](schema.png)
