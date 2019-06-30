@@ -1,7 +1,7 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Favorite = sequelize.define('Favorite', {
-    userId: {
+    UserId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
         key: 'id'
       }
     },
-    locationId: {
+    LocationId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
