@@ -31,8 +31,8 @@ router.post("/", function(req, res, next) {
             .then(location => {
               if(location) {
                 Favorite.create({
-                  userId: user.id,
-                  locationId: location.id
+                  UserId: user.id,
+                  LocationId: location.id
                 })
 
                 output = `${location.city}, ${location.state} has been added to your favorites`
@@ -54,8 +54,8 @@ router.post("/", function(req, res, next) {
                     .then(location => {
 
                       Favorite.create({
-                        userId: user.id,
-                        locationId: location.id
+                        UserId: user.id,
+                        LocationId: location.id
                       })
 
                     output = `${location.city}, ${location.state} has been added to your favorites`
