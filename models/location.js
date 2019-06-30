@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Location.associate = function(models) {
     // associations can be defined here
-    Location.belongsToMany(models.User, {through: 'Favorites', foreignKey: 'userId', as: 'users'})
+    Location.belongsToMany(models.User, {through: 'Favorites'})
   };
   return Location;
 };
