@@ -18,8 +18,8 @@ Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 
 ### Endpoints
 **POST /api/v1/users**
-*request*
 ```
+*request*
 Content-Type: application/json
 Accept: application/json
 
@@ -29,8 +29,8 @@ Accept: application/json
   "password_confirmation": "password"
 }
 ```
-*response*
 ```
+*response*
 status: 201
 body:
 
