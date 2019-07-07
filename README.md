@@ -4,10 +4,10 @@
 Express Sweater Weather is a solo project, and my first experience using JavaScript, Node.js, Express, and Sequelize. This was very much an exploratory project in which a number of API endpoints were built out to implement CRUD functionality. [Here](https://backend.turing.io/module4/projects/express_sweater_weather/express_sweater_weather_spec) is the link to the original project listing.
 
 **Key Learnings**
-* Introduction to JavaScript
-* Introduction to Node.js and Express
-* Introduction to Sequelize
-* Introduction to Jest
+* Intro to JavaScript
+* Intro to Node.js and Express
+* Intro to Sequelize
+* Intro to Jest
 * Project Management - using a [project board](https://trello.com/b/dv7NzuBG/expresssweaterweather), and breaking down features into multiple user stories.
 * Basic CRUD functionality
 * Consuming and Producing API's
