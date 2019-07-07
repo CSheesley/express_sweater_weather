@@ -9,6 +9,7 @@ Express Sweater Weather is a solo project, and my first experience using JavaScr
 * Intro to Sequelize
 * Intro to Jest
 * Project Management - using a [project board](https://trello.com/b/dv7NzuBG/expresssweaterweather), and breaking down features into multiple user stories.
+* Documentation
 * Basic CRUD functionality
 * Consuming and Producing API's
 
@@ -16,6 +17,27 @@ Express Sweater Weather is a solo project, and my first experience using JavaScr
 Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 
 ### Endpoints
+**POST /api/v1/users**
+*request*
+```
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "my_email@example.com",
+  "password": "password"
+  "password_confirmation": "password"
+}
+```
+*response*
+```
+status: 201
+body:
+
+{
+  "api_key": "jgn983hy48thw9begh98h4539h4",
+}
+```
 
 ### Setup
 `$ npx sequelize db:create`  
