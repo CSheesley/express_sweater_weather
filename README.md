@@ -34,7 +34,7 @@ Accept: application/json
 status: 201
 body:
 {
-  "api_key": "jgn983hy48thw9begh98h4539h4",
+  "api_key": "jgn983hy48thw9begh98h4539h4"
 }
 ```
 
@@ -57,7 +57,7 @@ body:
 }
 ```
 
-#### GET /api/v1/forecast?location=<city>,<state abbr>
+#### GET /api/v1/forecast?location=[city],[state abbr]
 ```
 *request*
 Content-Type: application/json
