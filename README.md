@@ -32,10 +32,10 @@ jest 24.8.0
 `$ npm install dotenv`  
 `$ npm install node-gyp`  
 `$ npm install bcrypt`   
-`$ npm install uuid`
-`$ npm install node-fetch --save`
-`$ npm install jest`
-`$ npm install babel-jest supertest shelljs`
+`$ npm install uuid`  
+`$ npm install node-fetch --save`  
+`$ npm install jest`  
+`$ npm install babel-jest supertest shelljs`  
 
 ### Schema
 ![schema](schema.png)
