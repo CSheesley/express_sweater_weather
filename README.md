@@ -1,5 +1,17 @@
 # Express Sweater Weather
 
+### About
+Express Sweater Weather is a solo project, and my first experience using JavaScript, Node.js, Express, and Sequelize. This was very much an exploratory project in which a number of API endpoints were built out to implement CRUD functionality. [Here](https://backend.turing.io/module4/projects/express_sweater_weather/express_sweater_weather_spec) is the link to the original project listing.
+
+**Key Learnings**
+* Introduction to JavaScript
+* Introduction to Node.js and Express
+* Introduction to Sequelize
+* Introduction to Jest
+* Project Management - using a [project board](https://trello.com/b/dv7NzuBG/expresssweaterweather), and breaking down features into multiple user stories.
+* Basic CRUD functionality
+* Consuming and Producing API's
+
 ### Links
 Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 
@@ -13,14 +25,17 @@ Trello Project Board Link: https://trello.com/b/dv7NzuBG/expresssweaterweather
 ### Versions
 node 10.16.0  
 npm 6.9.0  
-sequelize ?
+express 4.16.2  
+jest 24.8.0
 
 ### Packages
 `$ npm install dotenv`  
-`$ npm install -g node-gyp`  
+`$ npm install node-gyp`  
 `$ npm install bcrypt`   
 `$ npm install uuid`
-`npm install node-fetch --save`
+`$ npm install node-fetch --save`
+`$ npm install jest`
+`$ npm install babel-jest supertest shelljs`
 
 ### Schema
 ![schema](schema.png)
